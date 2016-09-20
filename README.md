@@ -15,8 +15,11 @@ Inspired by [Angular 2 - Tutorial](https://angular.io/docs/ts/latest/quickstart.
 * **app.module.ts** Every Angular application has at least one module: the root module, This is the entry point to your application.
 * **app.component.ts** Every Angular application has at least one component: the root component. A component controls a portion of the screen—a view—through its associated template.
 
-## Step 2 - TODO :
+## Step 3 - TODO :
 
-* Declare handler binding to its click event on hero from list **heroes.component.html**
-* Create handler on **heroes.component.ts** and set the selected hero attribute
-* Bind css class *selected* on selected Hero **heroes.component.ts**
+* Create HeroComponent which contains a selectedHero **hero.component.ts**
+* Declare your HeroComponent to **app.module.ts**
+* Add FormsModule **app.module.ts**
+* Create Hero html **hero.component.html** to editing your selectedHero (Use ngModel for binding your model and hide forms with ngIf)
+* Bind **hero.component.html** and **hero.component.css** to HeroComponent
+* Add your HeroComponent to **heroes.component.html**
