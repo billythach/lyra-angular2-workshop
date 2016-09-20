@@ -16,3 +16,7 @@ Inspired by [Angular 2 - Tutorial](https://angular.io/docs/ts/latest/quickstart.
 * **app.component.ts** Every Angular application has at least one component: the root component. A component controls a portion of the screen—a view—through its associated template.
 
 ## Step 2 - TODO :
+
+* Declare handler binding to its click event on hero from list **heroes.component.html**
+* Create handler on **heroes.component.ts** and set the selected hero attribute
+* Bind css class *selected* on selected Hero **heroes.component.ts**
