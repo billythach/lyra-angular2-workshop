@@ -15,8 +15,4 @@ Inspired by [Angular 2 - Tutorial](https://angular.io/docs/ts/latest/quickstart.
 * **app.module.ts** Every Angular application has at least one module: the root module, This is the entry point to your application.
 * **app.component.ts** Every Angular application has at least one component: the root component. A component controls a portion of the screen—a view—through its associated template.
 
-## Step 1 - TODO :
-* Create a directory **heroes/hero.model.ts**
-* Create a hero class with id and name properties named **heroes/hero.model.ts**
-* Create a heroes component which contains a heroes list to display named **heroes/heroes.component.ts**
-* Create an html displaying the heroes **heroes/heroes.component.html**
+## Step 2 - TODO :
