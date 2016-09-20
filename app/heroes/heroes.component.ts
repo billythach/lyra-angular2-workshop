@@ -10,6 +10,7 @@ import { Hero } from './hero.model';
 })
 export class HeroesComponent implements OnInit {
     heroes: Hero[];
+    selectedHero: Hero;
 
     constructor() { }
 
@@ -21,10 +22,13 @@ export class HeroesComponent implements OnInit {
             { id: 14, name: 'Cersei Lannister' },
             { id: 15, name: 'Sansa Stark' },
             { id: 16, name: 'Arya Stark' },
-            { id: 17, name: 'Arya Stark' },
-            { id: 18, name: 'Jaime Lannister' },
-            { id: 19, name: 'Theon Greyjoy' },
-            { id: 20, name: 'Varys' }
+            { id: 17, name: 'Jaime Lannister' },
+            { id: 18, name: 'Theon Greyjoy' },
+            { id: 19, name: 'Varys' }
         ]
+    }
+
+    onSelect(hero: Hero) {
+        this.selectedHero = hero;
     }
 }
