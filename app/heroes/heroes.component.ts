@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Hero } from './hero.model';
+import { HeroComponent }  from "./hero.component";
 
 @Component({
     moduleId : module.id,
